@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job {
+    background-color: gray;
+    color: whitesmoke;
+    width: 70%;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 5;
+}
+.corpo {
+    font-size: 18px;
+}
+
+#curriculo {
+    display: block;
+    width: 1000px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #CCC;
+    box-shadow: 0 4px 20px #333;
+}
+
+.user {
+    height: 150px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 80px;
+}
+
+.my-data {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.personal-data {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 10px;
+    width: 150px;
+}
+
+.vertical-line {
+    display: inline-block;
+    background-color: gray;
+    width: 3px;
+    height: 50px;
+    border: 10px;
+}
+
+p {
+    margin-left: 25px;
+} 
+
+h3 {
+    margin-left: 25px;
+    font-style: italic;
+}
+ dt {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+dd {
+    display: inline-block;
+    background-color: #CCC;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+.data {
+    font-size: 15px;
+    color: #333;
+    display: inline-block;
+}
+.local {
+    display: inline-block;
+    background-color: #CCC;
+    padding: 3px;
+}
